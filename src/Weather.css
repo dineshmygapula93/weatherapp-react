@@ -1,0 +1,33 @@
+.weather{
+    width: 500px;
+    height: 500px;
+background-image: url('./assets/bg.jpg');
+border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+
+input{
+    height: 40px;
+    width: 400px;
+    background-color: rgb(134, 217, 250);
+    border: none;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 20px;
+    color:white;
+  }
+  button{
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 8px;
+    background-color: rgb(130, 225, 253);
+    color:white;
+    cursor: pointer;
+  }
