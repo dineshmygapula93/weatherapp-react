@@ -6,19 +6,20 @@ border-radius: 25px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 10px;
+    overflow:auto;
     align-items: center;
 }
 
 input{
-    height: 40px;
+    height: 50px;
     width: 400px;
-    background-color: rgb(134, 217, 250);
+    background-color: rgb(243, 240, 53);
     border: none;
     border-radius: 10px;
     padding-left: 15px;
     font-size: 20px;
-    color:white;
+    color:rgb(44, 38, 37);
   }
   button{
     height: 40px;
@@ -27,7 +28,11 @@ input{
     border-radius: 10px;
     font-size: 20px;
     border: 8px;
-    background-color: rgb(130, 225, 253);
+    background-color: rgb(74, 218, 30);
     color:white;
     cursor: pointer;
+  }
+  
+  .res{
+    row-gap: 1px;
   }

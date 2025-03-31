@@ -1,7 +1,9 @@
 .main{
   width:100vw;
   height: 100vh;
-  background-color: rgb(246, 250, 18);
+  background-image: url('./assets/cloud.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
