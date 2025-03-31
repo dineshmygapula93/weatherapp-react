@@ -27,7 +27,6 @@ export default function Weather() {
                     setWind("Wind :"+(response.data.wind.speed))
                     setDescription("Description :"+response.data.weather[0].description)
                     setCity('')
-                    console.log(response.data)
                   })
                   } catch (error) {
               
